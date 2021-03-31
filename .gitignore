@@ -1,5 +1,5 @@
 .DS_Store
-node_modules
+/node_modules
 /dist
 
 # local env files
@@ -7,8 +7,6 @@ node_modules
 .env.*.local
 
 # Log files
-package-lock.json*
-yarn.lock*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
