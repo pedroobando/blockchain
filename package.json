@@ -1,11 +1,12 @@
 {
   "name": "apiblockchain",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "webpack-dev-server"
+    "build": "webpack --mode production --config webpack.config.js",
+    "start": "node ./dist/main.js"
   },
   "keywords": [],
   "author": "",

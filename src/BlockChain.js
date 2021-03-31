@@ -3,7 +3,7 @@ const Block = require("./Block");
 class BlockChain {
   constructor() {
     this.chain = [this.createGenesisBlock()];
-    this.difficulty = 5;
+    this.difficulty = 4;
   }
 
   createGenesisBlock() {
